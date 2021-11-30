@@ -1,4 +1,4 @@
-# manchester_unitedexamsite1
+# manchester_unitedexamsite
 The project of a exam site about the team Manchester United // Projeto de um site de prova sobre o time Manchester United
 
 This is a project that my teacher by ETEC Jardim Angela of programming web class request a site (free theme) with login and finally an exam that will be stored in a database on MySQL. Firstly I choose a football team that I like and they already have a site (https://www.manutd.com) to base. I choose the header to the base of their site with the same color and weight size.
