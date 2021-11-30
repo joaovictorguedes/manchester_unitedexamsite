@@ -1,0 +1,165 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background: #c70101;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 40%);
+    margin-top: 0px;
+}
+
+#logo_header {
+    padding: 7px 14px;
+    max-width: 75px;
+    background-color: #c70101;
+}
+
+.logo {
+    height: 46px;
+    width: 46px;
+    float: left;
+    margin: 7px;
+    margin-left: 15px;
+}
+
+.nav-menu {
+    float: right;
+    list-style: none;
+    margin-top: 23px;
+    margin-right: 50px;
+}
+
+li {
+    color: #fff;
+    display: inline;
+    margin: 50px;
+    font-style: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+    text-indent: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+img {
+    height: 100px;
+    margin: 30px;
+    float: left;
+}
+
+div.content {
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+}
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .curiosidade {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+div.prova {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button.open-button {
+    background-color: red;
+    height: 40px;
+    width: 400px;
+}
+
+div.curiosidades {
+    margin-top: 30px;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+}
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
